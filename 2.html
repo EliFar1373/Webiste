@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Website</title>
+        <style>
+            body{font-family: Arial, Helvetica, sans-serif;min-height: 100vh;padding-bottom: 100px;}
+            header{background-color: aqua;color: black;text-align: center;padding:5px;width: 100%;height:200px;}
+            
+            header nav ul li a{font-size:20px;font-weight: bold;text-decoration: none;color: rgb(48, 29, 4);position:relative;
+            transition:transform 0.3s ease,color 0.3s ease;padding: 20px 20px;display: inline-block;}
+            header nav ul{display:flex;justify-content: center;list-style: none;}
+            header nav ul li{margin: 30px;}
+            header nav ul li a:hover{color:brown;transform:scale(2);}
+            .sec1 div{background-color: rgb(166, 235, 235);width: 30%;height: 200px;margin-left: 15px;
+                margin-top:30px ;padding:3px;} 
+            .sec1{display: flex; flex-wrap:wrap;gap: 15px;justify-content: center;align-items: center;}
+            .sec1 div img{width: 80%;height: auto;border-radius: 3px;border:4px solid #000 ;}
+            .sec1 div{display: flex;align-items: center;justify-content: center;}
+            .sec1 video{width: 80%;height: auto;border-radius: 3px;border: 4px solid #000;}
+            .sec2{width: 100%;}
+            .sec2 div{background-color: bisque;width:95%;height: 300px;padding: 10px;
+                margin-top: 20px;position: relative;left: 20px;}
+            .sec2 div h1,h2{text-align: center;font-weight: bold;text-align: center;text-transform: uppercase;
+                margin-top: 10px;}
+            .sec2 div p{text-align: justify;}
+            footer{position:fixed;left:0;bottom:0;width:100%;background-color: #333;color: blanchedalmond;
+            text-align: center;padding: 10px;}
+
+            .sec3 form input{margin-bottom: 28px;width: 50%;height: 40px;
+            border: 2px solid #000;border-radius: 1px;padding:10px;font-size: 16px;}
+
+            button{background-color: rgb(4, 4, 47);color: antiquewhite;width: 120px;
+                height: 50px;font-size: 16px;border: none;}
+
+            .sec3 form label{font-size: 16px;font-weight: bold;color: #09024ceb;display:block; margin-bottom: 9px;
+            }
+            form{margin-top: 20px;}
+            .sec3{margin-top: 40px;}
+
+            .sec3 textarea{display: block;width:50%;margin-bottom: 28px;border: 2px solid #000;
+                border-radius: 1px;padding:10px;font-size: 16px;}
+
+
+
+            
+
+
+
+
+
+
+
+
+     
+        </style>
+
+    </head>
+    <body>
+
+       <header>
+        <h1>my practice page</h1>
+        <nav>
+            <ul>
+                <li><a href="#">section1</a></li>
+                <li><a href="#">section2</a></li>
+                <li><a href="#">section3</a></li>
+            </ul>
+
+        </nav>
+       </header>
+
+
+       <main>
+        <section class="sec1">
+            <div><img src="train.jpg" alt="img1" ></div>
+
+            <div ><video controls><source src="video.mp4" type="video/mp4"></video></div>
+
+            <div></div>
+        </section>
+
+
+        <section class="sec2">
+            <div>
+            <h1>The Mystical Jungle</h1>
+            <p>The jungle is one of the most fascinating ecosystems on Earth, a place where nature thrives in its purest form. 
+                It’s a world of intense colors, rich sounds, and extraordinary biodiversity. A jungle is not just a forest but 
+                an intricate web of life, 
+                where each plant and animal plays a crucial role in sustaining the delicate balance of the environment.</p>
+            <h2> The Heart of the Wilderness</h2>
+            <p> Deep in the heart of the jungle, life flourishes under the dense canopy of towering trees. The air is thick with moisture and the sounds of the wild—birds calling, insects buzzing, and the rustling of leaves as animals move through the underbrush. Beneath this green ocean, everything is interconnected. The trees, plants, and wildlife have evolved to survive in perfect harmony. The jungle is home to some of 
+                he world’s most exotic creatures, from the smallest insects to the most formidable predators.</p>
+            </div>
+        
+            </section>
+
+
+            <section class="sec3">
+                <h2>Enter your personal information:</h2>
+                <form action="">
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"> <br>
+
+                    <label for="email">Email:</label>  
+                    <input type="text" id="email" name="email">  <br>  
+                    
+                    <label for="num1">Enter num1:</label>
+                    <input type="number" id="num1" name="num1"><br>
+
+                    <label for="num2">Enter num2:</label>
+                    <input type="number" id="num2" name="num2"><br>
+
+
+                    <label for="message">Write down message:</label>
+                    <textarea name="message" id="message" rows="4"></textarea>
+
+                    <button>submit</button>
+                
+                </form>
+            </section>
+
+       </main>
+       
+
+       
+       
+       
+       
+      
+       
+       
+
+
+       <footer>
+        
+            <p>&copy; 2024 My Practice Website</p>
+        
+        
+    </footer>
+
+    </body>
+</html>
+
+
+
+
+   
+   
+
+
+
+
